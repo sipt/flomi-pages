@@ -252,7 +252,7 @@ echo '{"success":true, "outputs": {"outputDir": "'$destDir'"}}'
 
 ### Iconutil icns Job
 
-这个 Job 的创建同， [生成 icns 文件复杂版 -> #创建 iconutil Job](generate-icns.md)，唯一不同是从 outputs.outputDir 取的参数，可以看下面 Runner Command，这里直接贴代码：
+这个 Job 的创建同， [生成 icns 文件复杂版 -> #创建 iconutil Job](../generate-icns/)，唯一不同是从 outputs.outputDir 取的参数，可以看下面 Runner Command，这里直接贴代码：
 
 Enviroments 定义如下：
 ```JSON
