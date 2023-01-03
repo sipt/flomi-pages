@@ -1,0 +1,22 @@
+<section class="row g-3 g-md-5 pb-md-5 mb-5 align-items-center">
+  <div class="col-lg-6">
+    <div class="masthead-followup-icon d-inline-block mb-3" style="--bg-rgb: var(--bs-primary-rgb);">
+      {{ partial "icons/square-grid-2x2.svg" (dict "width" "32" "height" "32") }}
+    </div>
+    <h2 class="display-5 mb-3 fw-semibold lh-sm">Diverse Jobs</h2>
+    <p class="lead fw-normal">
+      Job is the smallest unit of execution in Flomi. You can find and download <code>*.flomiext</code> from the community according to your needs, or you can code your own program and execute it through bash (use powershell on windows). If you wish, you can export your coded Jobs and share it with the community.
+    </p>
+    <p class="d-flex justify-content-start lead fw-normal mb-md-0">
+      <a href="/docs/{{ .Site.Params.docs_version }}/job-tutorial/general/" class="icon-link fw-semibold">
+        Get Flomi Jobs
+        <svg class="bi"><use xlink:href="#arrow-right-short"></use></svg>
+      </a>
+    </p>
+  </div>
+  <div class="col-lg-6">
+      <img class="img-fluid mt-3 mx-auto"
+                                          src="/docs/{{ .Site.Params.docs_version }}/assets/img/SCR-20230103-h0i.png"
+                                          alt="Bootstrap Icons" width="700" height="600" loading="lazy">
+  </div>
+</section>

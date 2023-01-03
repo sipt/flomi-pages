@@ -1,0 +1,72 @@
+<section class="row g-3 g-md-5 pb-md-5 mb-5 align-items-center">
+  <div class="col-lg-6">
+      <img class="img-fluid mt-3 mx-auto"
+                                          src="/docs/{{ .Site.Params.docs_version }}/assets/img/SCR-20230103-jst.png"
+                                          alt="Bootstrap Icons" width="700" height="600" loading="lazy">
+  </div>
+  <div class="col-lg-6">
+    <div class="masthead-followup-icon d-inline-block mb-3" style="--bg-rgb: var(--bd-teal-rgb);">
+      {{ partial "icons/e-square.svg" (dict "width" "32" "height" "32") }}
+    </div>
+    <h2 class="display-5 mb-3 fw-semibold lh-sm">Visualized Environments</h2>
+    <p class="lead fw-normal">
+      Visualize component(<code>Input</code>, <code>Checkbox</code>, <code>FileInput</code>, <code>Select</code> ...) layout easily and conveniently using JSON. Users can easily modify environment variables through the visual interface.
+    </p>
+    <div style="height: 500px; overflow: auto;">
+    {{ highlight (printf `{
+      "viewBox": {
+        "labelWidth": "20%%",
+        "widgets": [
+          {
+            "fileInput": {
+              "exts": [
+                "png"
+              ],
+              "kind": "file",
+              "name": "inputFile",
+              "op": "select",
+              "placeholder": "1024x1024 PNG"
+            },
+            "label": "Src File"
+          },
+          {
+            "albel": "size",
+            "checkbox": {
+              "label": "16x16",
+              "name": "c16"
+            }
+          },
+          // ...
+          {
+            "checkbox": {
+              "extensionView": {
+                "labelWidth": "0",
+                "widgets": [
+                  {
+                    "fileInput": {
+                      "kind": "dir",
+                      "name": "outputDir",
+                      "op": "select",
+                      "placeholder": "Output Dir path."
+                    }
+                  }
+                ]
+              },
+              "label": "Custom",
+              "name": "customOutput"
+            },
+            "label": "Output Dir"
+          }
+        ]
+      }
+    }
+      `) "json" "" }}
+    </div>
+    <p class="d-flex justify-content-start lead fw-normal mb-md-0">
+      <a href="/docs/{{ .Site.Params.docs_version }}/job-tutorial/environments/" class="icon-link fw-semibold">
+        Get Flomi Environments
+        <svg class="bi"><use xlink:href="#arrow-right-short"></use></svg>
+      </a>
+    </p>
+  </div>
+</section>

@@ -31,7 +31,7 @@ publishDir:             "_site"
 module:
   mounts:
     - source:           dist
-      target:           static/docs/5.3/dist
+      target:           static/docs/1.0/dist
     - source:           site/assets
       target:           assets
     - source:           site/content
@@ -42,9 +42,9 @@ module:
       target:           layouts
     - source:           site/static
       target:           static
-    - source:           site/static/docs/5.3/assets/img/favicons/apple-touch-icon.png
+    - source:           site/static/docs/1.0/assets/img/favicons/apple-touch-icon.png
       target:           static/apple-touch-icon.png
-    - source:           site/static/docs/5.3/assets/img/favicons/favicon.ico
+    - source:           site/static/docs/1.0/assets/img/favicons/favicon.ico
       target:           static/favicon.ico
 
 params:
@@ -52,9 +52,9 @@ params:
   description:          "Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."
   authors:              "Mark Otto, Jacob Thornton, and Bootstrap contributors"
 
-  current_version:      "5.3.0-alpha1"
-  current_ruby_version: "5.3.0-alpha1"
-  docs_version:         "5.3"
+  current_version:      "1.0.0-alpha1"
+  current_ruby_version: "1.0.0-alpha1"
+  docs_version:         "1.0"
   rfs_version:          "v9.0.6"
   github_org:           "https://github.com/twbs"
   repo:                 "https://github.com/twbs/bootstrap"
@@ -69,6 +69,8 @@ params:
     source:             "https://github.com/twbs/bootstrap/archive/v5.3.0-alpha1.zip"
     dist:               "https://github.com/twbs/bootstrap/releases/download/v5.3.0-alpha1/bootstrap-5.3.0-alpha1-dist.zip"
     dist_examples:      "https://github.com/twbs/bootstrap/releases/download/v5.3.0-alpha1/bootstrap-5.3.0-alpha1-examples.zip"
+    macDist:            "https://github.com/sipt/flomi-rls/releases/download/v1.0.0/flomi-darwin-universal-1.0.0.zip"
+    winDist:            "https://github.com/sipt/flomi-rls/releases/download/v1.0.0/flomi-1.0.0.Setup.exe"
 
   cdn:
     # See https://www.srihash.org for info on how to generate the hashes
