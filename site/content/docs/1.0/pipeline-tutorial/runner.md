@@ -18,6 +18,6 @@ Pipeline 创建运行请参见 [快速开始](../../getting-started/quick-start/
 
 ### Stage Enviromnets
 
-<figure><img src="../.gitbook/assets/SCR-20221214-k0f.png" alt=""><figcaption></figcaption></figure>
+<img class="mb-4 img-fluid rounded-3" src="/docs/{{< param docs_version >}}/assets/img/guides/SCR-20221214-k0f.png" width="1000" alt="">
 
 每个 Stage 可以对它的 Enviroments 进行修改，它的 Environments 的值会存在 Stage 中，不同的 Stage 相互隔离不会相互影响。

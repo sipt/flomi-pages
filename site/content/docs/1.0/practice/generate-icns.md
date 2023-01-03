@@ -108,8 +108,8 @@ iconutil -c icns {input path} -o {output path}
 这里 input path 可以用参数传入，output path 可以 Environments 输入
 
 1. 直接从 `Sips PNG` 上 `Duplicate` 出来，简单编辑一下
-<figure><img src="../.gitbook/assets/SCR-20221220-s6w.png" alt=""><figcaption><p></p></figcaption></figure>
-<figure><img src="../.gitbook/assets/SCR-20221220-s7n.png" alt=""><figcaption><p></p></figcaption></figure>
+<img class="mb-4 img-fluid rounded-3" src="/docs/{{< param docs_version >}}/assets/img/guides/SCR-20221220-s6w.png" width="1000" alt="">
+<img class="mb-4 img-fluid rounded-3" src="/docs/{{< param docs_version >}}/assets/img/guides/SCR-20221220-s7n.png" width="1000" alt="">
 
 2. 编辑 Environmnents 如下：
 ```json
