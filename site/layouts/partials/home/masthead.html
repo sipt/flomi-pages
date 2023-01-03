@@ -8,9 +8,9 @@
       </p>
       <div class="d-flex flex-column flex-lg-row align-items-md-stretch justify-content-md-center gap-3 mb-4">
         <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-          <a id="download-app" data-flomi-version="{{ .Site.Params.docs_version }}" href="/docs/{{ .Site.Params.docs_version }}/getting-started/introduction/" class="btn btn-lg bd-btn-lg btn-bd-primary d-flex align-items-center justify-content-center fw-semibold">
+          <a id="download-app" data-flomi-version="{{ .Site.Params.current_version }}" href="/docs/{{ .Site.Params.docs_version }}/getting-started/introduction/" class="btn btn-lg bd-btn-lg btn-bd-primary d-flex align-items-center justify-content-center fw-semibold">
             <svg class="bi me-2"><use href="#cloud-arrow-down-fill"></use></svg>
-            Flomi v{{ .Site.Params.docs_version }}
+            Flomi v{{ .Site.Params.current_version }}
           </a>
           <div class="btn-group dropdown" role="group">
             <button class="btn btn-lg bd-btn-lg btn-bd-primary py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"

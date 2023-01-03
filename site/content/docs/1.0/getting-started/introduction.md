@@ -15,7 +15,7 @@ toc: true
 在 FLomi 上可以轻松创建一个工作流，执行它可以完成一些指定工作，提高生产力🎉。Flomi 中整体分为两大块：Job 和 Pipeline。Job 是最小可执行任务，多个 Job 可以组成一个 Pipeline。而 Job 可以自己编写，也可以去社区或网络上寻找。
 
 ## 下载
-<code>Flomi {{< param docs_version >}}</code>
+<code>Flomi {{< param current_version >}}</code>
 <div class="d-flex flex-column flex-lg-row align-items-md-stretch justify-content-start gap-3 mb-4">
 <a href="{{< param "download.macDist" >}}" class="btn btn-lg bd-btn-lg btn-bd-primary d-flex align-items-center justify-content-center fw-semibold">
   <svg class="bi me-2"><use href="#apple"></use></svg>
