@@ -58,6 +58,7 @@ params:
   rfs_version:          "v9.0.6"
   github_org:           "https://github.com/sipt"
   repo:                 "https://github.com/sipt/flomi"
+  discord:              "https://discord.gg/6UGVTv6jMB"
   twitter:              "getbootstrap"
   opencollective:       "https://opencollective.com/bootstrap"
   blog:                 "https://blog.getbootstrap.com/"

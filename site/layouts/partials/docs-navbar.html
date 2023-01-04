@@ -38,6 +38,16 @@
         <hr class="d-lg-none text-white-50">
 
         <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+          <li class="nav-item col-6 col-lg-auto">
+            <a class="nav-link py-1 px-0 px-lg-2" href="{{ .Site.Params.discord }}" target="_blank" rel="noopener">
+              {{ partial "icons/discord.svg" (dict "class" "navbar-nav-svg" "width" "26" "height" "30") }}
+              <small class="d-lg-none ms-2">Discord</small>
+            </a>
+          </li>
+          <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
+            <hr class="d-lg-none my-2 text-white-50">
+          </li>
           <li class="nav-item dropdown">
             <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
                     id="bd-theme"
