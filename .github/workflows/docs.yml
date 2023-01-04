@@ -41,10 +41,8 @@ jobs:
       - name: Validate HTML
         run: npm run docs-vnu
 
-      - name: Run linkinator
-        uses: JustinBeckwith/linkinator-action@v1
+      - name: Deploy Web
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          paths: _site
-          recurse: true
-          verbosity: error
-          skip: "^(?!http://localhost)"
+          github_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_dir: ./_site
