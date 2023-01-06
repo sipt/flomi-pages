@@ -48,9 +48,9 @@ module:
       target:           static/favicon.ico
 
 params:
-  subtitle:             "The most popular HTML, CSS, and JS library in the world."
-  description:          "Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."
-  authors:              "Mark Otto, Jacob Thornton, and Bootstrap contributors"
+  subtitle:             "Quickly build a feature-rich workflow with GUI."
+  description:          "Powerful, extensible, and feature-packed productivity toolkit. Use multiple imported or custom Jobs to build a diverse Pipeline to automate tasks."
+  authors:              "Sipt Wu"
 
   current_version:      "1.0.0"
   current_ruby_version: "1.0.0-alpha1"
