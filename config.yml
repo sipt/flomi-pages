@@ -51,6 +51,7 @@ params:
   subtitle:             "Quickly build a feature-rich workflow with GUI."
   description:          "Powerful, extensible, and feature-packed productivity toolkit. Use multiple imported or custom Jobs to build a diverse Pipeline to automate tasks."
   authors:              "Sipt Wu"
+  keywords:             "flomi app, flomi for mac, flomi for windows, workflow"
 
   current_version:      "1.0.0"
   current_ruby_version: "1.0.0-alpha1"
