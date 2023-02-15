@@ -17,13 +17,13 @@ toc: true
 ## 下载
 <code>Flomi {{< param current_version >}}</code>
 <div class="d-flex flex-column flex-lg-row align-items-md-stretch justify-content-start gap-3 mb-4">
-<a href="{{< param "download.macDist" >}}" class="btn btn-lg bd-btn-lg btn-bd-primary d-flex align-items-center justify-content-center fw-semibold">
+<a href="{{< param "download.macDist" >}}" class="btn btn-lg bd-btn-lg btn-bd-primary d-flex align-items-center justify-content-center fw-semibold" onclick="gtag('event', 'Link Download', { 'event_category': 'Download', 'event_label': 'MacOS' })">
   <svg class="bi me-2"><use href="#apple"></use></svg>
   Universal
   <svg class="bi ms-2 me-2"><use href="#cloud-arrow-down-fill"></use></svg>
 </a>
 
-<a href="{{< param "download.winDist" >}}" class="btn btn-lg bd-btn-lg btn-bd-primary d-flex align-items-center justify-content-center fw-semibold">
+<a href="{{< param "download.winDist" >}}" class="btn btn-lg bd-btn-lg btn-bd-primary d-flex align-items-center justify-content-center fw-semibold" onclick="gtag('event', 'Link Download', { 'event_category': 'Download', 'event_label': 'Windows' })">
   <svg class="bi me-2"><use href="#windows"></use></svg>
   X64
   <svg class="bi ms-2 me-2"><use href="#cloud-arrow-down-fill"></use></svg>
