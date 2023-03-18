@@ -53,7 +53,7 @@ params:
   authors: "Sipt Wu"
   keywords: "flomi app, flomi for mac, flomi for windows, workflow"
 
-  current_version: "1.1.0"
+  current_version: "1.1.1"
   current_ruby_version: "1.0.0-alpha1"
   docs_version: "1.1"
   rfs_version: "v9.0.6"
