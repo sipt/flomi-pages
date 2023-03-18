@@ -8,7 +8,12 @@ aliases:
 toc: true
 ---
 
-## v1.1.0 (Latest)
+## v1.1.1 (Latest)
+* 修复mac双击 flomiext 文件无法导入
+* 修复倒入时列表中重复
+* 修复 1.1 与 1.0 兼容性问题
+
+## v1.1.0
 * Job 列表 和 Pipeline 列表 支持树状目录
 * Job 编辑区域改版，支持自动保存
 * Job 运行状态标识
