@@ -4,7 +4,7 @@ title: Pipeline 基本信息
 description: Pipeline 是 Flomi 中基本可执行单元。它用来完成具体的某一个任务。
 group: pipeline-tutorial
 aliases:
-  - "/docs/1.0/pipeline-tutorial/"
+  - "/docs/1.1/pipeline-tutorial/"
   - "/docs/pipeline-tutorial/"
   - "/pipeline-tutorial/"
 toc: true

@@ -4,7 +4,7 @@ title: 生成 MacOS icns
 description: 
 group: practice
 aliases:
-  - "/docs/1.0/practice/"
+  - "/docs/1.1/practice/"
   - "/docs/practice/"
   - "/practice/"
 toc: true

@@ -4,7 +4,7 @@ title: Job 基本信息
 description: Job 是 Flomi 中最小的可执行单元。它用来完成单一的某一个任务。
 group: job-tutorial
 aliases:
-  - "/docs/1.0/job-tutorial/"
+  - "/docs/1.1/job-tutorial/"
   - "/docs/job-tutorial/"
   - "/job-tutorial/"
 toc: true

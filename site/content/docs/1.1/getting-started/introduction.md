@@ -4,7 +4,7 @@ title: 什么是 Flomi
 description: 在 Flomi 中，可以用低代码或拖拽的方式快速的创建工作流，来帮助用户完成重复性的工作。（支持 Windows 和 MacOS 双平台）
 group: getting-started
 aliases:
-  - "/docs/1.0/getting-started/"
+  - "/docs/1.1/getting-started/"
   - "/docs/getting-started/"
   - "/getting-started/"
 toc: true
